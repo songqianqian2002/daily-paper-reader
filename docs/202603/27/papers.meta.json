@@ -1,0 +1,23 @@
+{
+  "label": "2026-03-27",
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27T20:17:12",
+  "count": 1,
+  "papers": [
+    {
+      "paper_id": "202603/27/2603.25555v1-towards-comprehensive-real-time-scene-understanding-in-ophthalmic-surgery-through-multimodal-image-fusion",
+      "section": "quick",
+      "title_en": "Towards Comprehensive Real-Time Scene Understanding in Ophthalmic Surgery through Multimodal Image Fusion",
+      "authors": "Nikolo Rohrmoser, Ghazal Ghazaei, Michael Sommersperger, Nassir Navab",
+      "date": "2026-03-26",
+      "pdf": "https://arxiv.org/pdf/2603.25555v1",
+      "score": "6.0",
+      "evidence": "玻璃体视网膜手术中的多模态成像与OCT",
+      "tldr": "本研究针对眼科手术中场景理解的复杂性，提出了一种融合手术显微镜（OPMI）和实时术中光学相干断层扫描（iOCT）的多模态实时网络架构。该方法通过交叉注意力机制融合图像特征，并利用循环模块捕捉时间相干性，实现了手术器械的精确检测、关键点定位及器械与组织间的距离估计。实验表明，多模态融合显著提升了预测精度，特别是在近距离操作中表现优异，为实现全面、实时的手术场景理解奠定了基础。",
+      "tags": "query:rlrl",
+      "abstract_en": "Purpose: The integration of multimodal imaging into operating rooms paves the way for comprehensive surgical scene understanding. In ophthalmic surgery, by now, two complementary imaging modalities are available: operating microscope (OPMI) imaging and real-time intraoperative optical coherence tomography (iOCT). This first work toward temporal OPMI and iOCT feature fusion demonstrates the potential of multimodal image processing for multi-head prediction through the example of precise instrument tracking in vitreoretinal surgery.   Methods: We propose a multimodal, temporal, real-time capable network architecture to perform joint instrument detection, keypoint localization, and tool-tissue distance estimation. Our network design integrates a cross-attention fusion module to merge OPMI and iOCT image features, which are efficiently extracted via a YoloNAS and a CNN encoder, respectively. Furthermore, a region-based recurrent module leverages temporal coherence.   Results: Our experiments demonstrate reliable instrument localization and keypoint detection (95.79% mAP50) and show that the incorporation of iOCT significantly improves tool-tissue distance estimation, while achieving real-time processing rates of 22.5 ms per frame. Especially for close distances to the retina (below 1 mm), the distance estimation accuracy improved from 284 $μm$ (OPMI only) to 33 $μm$ (multimodal).   Conclusion: Feature fusion of multimodal imaging can enhance multi-task prediction accuracy compared to single-modality processing and real-time processing performance can be achieved through tailored network design. While our results demonstrate the potential of multi-modal processing for image-guided vitreoretinal surgery, they also underline key challenges that motivate future research toward more reliable, consistent, and comprehensive surgical scene understanding.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

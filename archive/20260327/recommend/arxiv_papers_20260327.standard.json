@@ -1,0 +1,54 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-27T20:16:27.887667+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 1,
+    "deep_divecandidates": 0,
+    "deep_cap": 6,
+    "deep_selected": 0,
+    "quick_candidates": 1,
+    "quick_skim_target": 11,
+    "quick_selected": 1
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "2603.25555v1",
+      "title": "Towards Comprehensive Real-Time Scene Understanding in Ophthalmic Surgery through Multimodal Image Fusion",
+      "abstract": "Purpose: The integration of multimodal imaging into operating rooms paves the way for comprehensive surgical scene understanding. In ophthalmic surgery, by now, two complementary imaging modalities are available: operating microscope (OPMI) imaging and real-time intraoperative optical coherence tomography (iOCT). This first work toward temporal OPMI and iOCT feature fusion demonstrates the potential of multimodal image processing for multi-head prediction through the example of precise instrument tracking in vitreoretinal surgery.   Methods: We propose a multimodal, temporal, real-time capable network architecture to perform joint instrument detection, keypoint localization, and tool-tissue distance estimation. Our network design integrates a cross-attention fusion module to merge OPMI and iOCT image features, which are efficiently extracted via a YoloNAS and a CNN encoder, respectively. Furthermore, a region-based recurrent module leverages temporal coherence.   Results: Our experiments demonstrate reliable instrument localization and keypoint detection (95.79% mAP50) and show that the incorporation of iOCT significantly improves tool-tissue distance estimation, while achieving real-time processing rates of 22.5 ms per frame. Especially for close distances to the retina (below 1 mm), the distance estimation accuracy improved from 284 $μm$ (OPMI only) to 33 $μm$ (multimodal).   Conclusion: Feature fusion of multimodal imaging can enhance multi-task prediction accuracy compared to single-modality processing and real-time processing performance can be achieved through tailored network design. While our results demonstrate the potential of multi-modal processing for image-guided vitreoretinal surgery, they also underline key challenges that motivate future research toward more reliable, consistent, and comprehensive surgical scene understanding.",
+      "authors": [
+        "Nikolo Rohrmoser",
+        "Ghazal Ghazaei",
+        "Michael Sommersperger",
+        "Nassir Navab"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-03-26T15:27:27+00:00",
+      "link": "https://arxiv.org/pdf/2603.25555v1",
+      "tags": [
+        "keyword:RLRL",
+        "query:RLRL"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multimodal imaging in vitreoretinal surgery and OCT",
+      "llm_evidence_cn": "玻璃体视网膜手术中的多模态成像与OCT",
+      "llm_evidence": "玻璃体视网膜手术中的多模态成像与OCT",
+      "canonical_evidence": "玻璃体视网膜手术中的多模态成像与OCT",
+      "llm_tldr_en": "Integrates microscope and OCT imaging for real-time scene understanding in eye surgery.",
+      "llm_tldr_cn": "整合显微镜与OCT成像，实现眼科手术中的实时场景理解。",
+      "llm_tldr": "整合显微镜与OCT成像，实现眼科手术中的实时场景理解。",
+      "llm_tags": [
+        "query:rlrl:composite"
+      ],
+      "matched_query_tag": "query:rlrl:composite",
+      "matched_query_text": "Papers central to 重复低强度红光照射在动物模型中对近视影响的研究，重点关注眼轴、玻璃体腔及相关生物学机制。, especially work that connects or combines: repeated low-level red light therapy; myopia development and progression; axial length elongation in myopia; choroidal blood perfusion and thickness; mitochondrial function and oxidative stress in retina; inflammatory factors and cytokines in myopia; effect of repeated low level red light on myopia in chick models; mechanisms of red light therapy on axial length and vitreous chamber depth; retina choroid sclera pathway in red light myopia control; impact of red light on ocular blood flow and oxidative stress in myopia.",
+      "matched_requirement_id": "req-composite-rlrl",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
