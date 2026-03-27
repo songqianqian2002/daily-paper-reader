@@ -25,3 +25,48 @@ subscriptions:
     stage: A
     diff_threshold_pct: 15
   keyword_recall_mode: or
+  intent_profiles:
+    - tag: RLRL
+      description: 重复低强度红光照射在动物模型中对近视影响的研究，重点关注眼轴、玻璃体腔及相关生物学机制。
+      enabled: true
+      keywords:
+        - keyword: RLRL
+          keyword_cn: 重复低强度红光
+          query: repeated low-level red light therapy
+        - keyword: myopia
+          keyword_cn: 近视
+          query: myopia development and progression
+        - keyword: axial length
+          keyword_cn: 眼轴长度
+          query: axial length elongation in myopia
+        - keyword: choroidal blood flow
+          keyword_cn: 脉络膜血流
+          query: choroidal blood perfusion and thickness
+        - keyword: mitochondria
+          keyword_cn: 线粒体功能
+          query: mitochondrial function and oxidative stress in retina
+        - keyword: inflammatory cytokines
+          keyword_cn: 炎症因子
+          query: inflammatory factors and cytokines in myopia
+      intent_queries:
+        - query: effect of repeated low level red light on myopia in chick models
+          query_cn: 重复低强度红光对小鸡近视模型的影响
+          enabled: true
+          source: manual
+          note: ''
+        - query: mechanisms of red light therapy on axial length and vitreous chamber depth
+          query_cn: 红光疗法对眼轴长度和玻璃体腔深度的作用机制
+          enabled: true
+          source: manual
+          note: ''
+        - query: retina choroid sclera pathway in red light myopia control
+          query_cn: 红光控制近视中的视网膜 脉络膜 巩膜通路
+          enabled: true
+          source: manual
+          note: ''
+        - query: impact of red light on ocular blood flow and oxidative stress in myopia
+          query_cn: 红光对近视眼血流及氧化应激的影响
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-27T04:03:41.592Z'
